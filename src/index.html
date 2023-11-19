@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src=" ../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/scirpt.js"></script>
+
+</head>
+
+
+<body>
+<div class="top-section bg-image text-light"  id="topSection"  style="background-image: url('../assets/images/kia.png');
+height:115vh ">
+  <header class="pt-2 fixed-top">
+    <div>
+        <nav class="navbar navbar-expand-xl bg-primary rounded-3 m-3 mx-auto text-center">
+            <div class="container-fluid">
+                <a href="project.html" class="navbar-brand logo">EZ Rent</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse ms-1" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link " href="about.html" id="navbarDropdownMenuLinkAbout" >
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkCar" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                CAR LISTING
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkCar">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                        <a class="btn btn-secondary" href="contactUs.html">CONTACT US</a>
+                        <button class="btn btn-outline-light " id="switch" onclick="dark_light_mode()">dark</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+  </header>
+
+<script src="../assets/js/scirpt.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    showHomepageImage();
+  });
+</script>
+
+
+</div>
+<main>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+              <img src="../assets/images/Toyota-FJC.webp" alt="FJ Cruiser" class="card-img-top">
+              <div class="card-body">
+                  <h2 class="card-title">FJ Cruiser or similar</h2>
+                  <ul class=" custom-columns">
+                      <li class="list-group-item">
+                          <i class="icon-seats"></i> 5 Passengers
+                      </li>
+                      <li class="list-group-item">
+                          <i class="icon-door"></i> 5 Doors
+                      </li>
+                      <li class="list-group-item">
+                          <i class="icon-cruise"></i> Cruise Control
+                      </li>
+                      <li class="list-group-item">
+                          <i class="icon-airbag"></i> Airbags
+                      </li>
+                      <li class="list-group-item">
+                          <i class="icon-bluetooth"></i> Bluetooth
+                      </li>
+                      <li class="list-group-item">
+                          <i class="icon-auto"></i> Automatic
+                      </li>
+                  </ul>
+              </div>
+              <div class="card-footer d-flex justify-content-center">
+                  <a class="btn btn-secondary ps-3 pe-3" href="">BOOKING</a>
+              </div>
+          </div>
+      </div>  
+      <div class="col-lg-4 ">
+        <div class="card">
+            <img src="../assets/images/Kia-Picanto.webp" alt="FJ Cruiser" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Kia Picanto or similar</h2>
+                <ul class=" custom-columns">
+                    <li class="list-group-item">
+                        <i class="icon-seats"></i> 5 Passengers
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-door"></i> 5 Doors
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-airbag"></i> Airbags
+                    </li>
+                    <li class="list-group-item mb-5">
+                        <i class="icon-auto"></i> Automatic
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+                <a class="btn btn-secondary ps-3 pe-3" href="">BOOKING</a>
+            </div>
+        </div>
+      </div> 
+      <div class="col-lg-4">
+        <div class="card">
+            <img src="../assets/images/Honda-City.webp" alt="FJ Cruiser" class="card-img-top">
+            <div class="card-body">
+              <h2 class="card-title">Honda City</h2>
+              <ul class=" custom-columns">
+                  <li class="list-group-item">
+                      <i class="icon-seats"></i> 5 Passengers
+                  </li>
+                  <li class="list-group-item">
+                      <i class="icon-door"></i> 5 Doors
+                  </li>
+                  <li class="list-group-item">
+                    <i class="icon-cruise"></i> Cruise Control
+                </li>
+                  <li class="list-group-item">
+                      <i class="icon-airbag"></i> Airbags
+                  </li>
+                  <li class="list-group-item">
+                      <i class="icon-auto"></i> Automatic
+                  </li>
+              </ul>
+            </div>
+        <div class="card-footer d-flex justify-content-center">
+              <a class="btn btn-secondary ps-3 pe-3" href="">BOOKING</a>
+        </div>
+        </div>
+      </div>   
+      <div class="col-lg-4 mt-5">
+        <div class="card">
+            <img src="../assets/images/Toyota-b.webp" alt="FJ Cruiser" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Toyota Hiace Panel Van</h2>
+                <ul class=" custom-columns">
+                    <li class="list-group-item">
+                        <i class="icon-seats"></i> 7 Passengers
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-door"></i> 4 Doors
+                    </li>
+                    <li class="list-group-item">
+                      <i class="icon-cruise"></i> Cruise Control
+                  </li>
+                    <li class="list-group-item">
+                        <i class="icon-airbag"></i> Airbags
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-auto"></i> Manual
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+                <a class="btn btn-secondary ps-3 pe-3" href="">BOOKING</a>
+            </div>
+        </div>
+      </div>   
+      <div class="col-lg-4 mt-5">
+        <div class="card">
+            <img src="../assets/images/Toyota-Hilux.webp" alt="FJ Cruiser" class="card-img-top">
+            <div class="card-body">
+                <h2 class="card-title">Toyota Hilux</h2>
+                <ul class=" custom-columns">
+                    <li class="list-group-item">
+                        <i class="icon-seats"></i> 5 Passengers
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-door"></i> 4 Doors
+                    </li>
+                    <li class="list-group-item">
+                        <i class="icon-airbag"></i> Airbags
+                    </li>
+                    <li class="list-group-item mb-5">
+                        <i class="icon-auto"></i> Manual
+                    </li>
+                </ul>
+            </div>
+            <div class="card-footer d-flex justify-content-center">
+                <a class="btn btn-secondary ps-3 pe-3 " href="">BOOKING</a>
+            </div>
+        </div>
+         </div>   
+      </div>
+      <!-- end of row -->
+    </div>
+  
+    
+</main>
+
+
+  <footer class="py-5 container-fluid ps-0 pe-0 bg-primary rounded-top-5 mt-5 text-light">
+    <div class="d-flex justify-content-center align-items-center"> 
+      <a href="project.html" class="navbar-brand logo">EZ Rent</a>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-6 col-md-2 ms-5 ps-5 mb-3 ">
+        <h5>EXPLORE</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Car Listing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">News</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>QUICK LINKS</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2 "><a href="#" class="nav-link p-0 text-white">Privacy Policy</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Terms Of Services</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Disclaimer</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQ</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3 me-3">
+        <h5>QUICK CONTACT</h5>
+        <ul class="nav flex-column">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white"> Denver</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Office 478 Vienna, AU 92101</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">+0 (000) 000 00 00</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">carveo@support.com</a></li>
+        </ul>
+        
+        </ul>
+      </div>
+      <div class="col-6 col-md-2 mb-3">
+        <h5>FOLLOW US</h5>
+        <a class="btn text-white btn-floating m-1 rounded-circle bg-white"href="https://www.youtube.com/watch?v=wz9LmGU_klE"role="button"> <i class="fa-brands fa-youtube" style="color: #f00f0f;"></i></a>
+        <a class="btn text-white btn-floating m-1 rounded-circle bg-white" href="#!"role="button"><i class="fa-brands fa-twitter" style="color: #078aed;"></i></a>
+        <a class="btn text-white btn-floating m-1 rounded-circle bg-white" href="#!" role="button"><i class="fa-brands fa-facebook" style="color: #1450b8;"></i></a>
+        <a class="btn text-white btn-floating m-1 rounded-circle bg-white" href="#!" role="button"><i class="fa-brands fa-instagram" style="color: #ca1bfd"></i></a>
+
+        <div class="additional-content">
+            <p>Copyright © 2023 All rights reserved..</p>
+        </div>
+    </div>
+
+      
+
+    
+    </div>
+  </footer>
+</body>
+</html>
